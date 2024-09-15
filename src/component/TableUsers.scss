@@ -1,0 +1,34 @@
+.header-sort {
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        cursor: pointer;
+    }
+}
+
+.add-new {
+    // display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn-container {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    i {
+        padding: 0 3px;
+    }
+
+}
+
+.Customize-scroll {
+    overflow-x: auto;
+    width: inherit;
+}
+
+.pagination {
+    justify-content: center;
+}

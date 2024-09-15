@@ -1,0 +1,82 @@
+.login-container {
+    margin-top: 50px !important;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(165, 192, 205);
+    border: none;
+
+    .header-login {
+        margin-top: -50px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 23px;
+        padding-bottom: 50px;
+
+
+    }
+
+
+
+    input {
+        margin: 0 auto;
+        margin-bottom: 7px;
+        height: 40px;
+        width: 300px;
+        background-color: rgb(248, 240, 240);
+        outline: none;
+        border: none;
+        border-radius: 3px;
+
+
+        &:hover {
+            background-color: #dedede;
+        }
+    }
+
+    button {
+        margin: 0 auto;
+        width: 300px;
+        padding: 10px;
+        margin-top: 40px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-weight: 500;
+        background-color: rgb(92, 92, 176);
+
+        &.active {
+            background-color: #ef7171;
+        }
+
+    }
+
+    button[disabled=disabled],
+    button:disabled {
+        cursor: not-allowed;
+    }
+
+    .back {
+        text-align: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .input-2 {
+        margin: 0 auto;
+        position: relative;
+
+        .fa-solid {
+            position: absolute;
+            top: 14px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+
+}
